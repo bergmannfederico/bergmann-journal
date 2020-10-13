@@ -28,7 +28,7 @@ body{
 .headBJ{
     text-align: center;
     border-bottom: 1px solid grey;
-    font-size: 1.5zrem;
+    font-size: 1.5rem;
 }
 
 .mgNews{
@@ -154,3 +154,25 @@ figure img{
 .deco-none{
     text-decoration: none;
 }
+
+.upperDate{
+    text-align: right;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.subHeadline{
+    font-family: 'KisFBDisplay', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.footerBJ{
+    padding: 0.5rem;
+    padding-left: 50px;
+    border-top: 1px solid grey;
+    font-size: 1rem;
+}
+
