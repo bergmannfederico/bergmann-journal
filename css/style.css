@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: 'KisFBDisplay';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/KisFBDisplay-Roman.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Benton Gothic";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/BentonGothic-Medium.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Benton Gothic";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/BentonGothic-Bold.woff2) format("woff2");
+}
+
+body{
+    margin: 0px;
+}
+
+.headBJ{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-size: 1.5zrem;
+}
+
+.mgNews{
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-left: 70px;
+}
+
+.upHead{
+    margin-bottom: 10px;
+}
+
+.upHead a{
+    font-family: 'Benton Gothic' ,arial,"helvetica neue",helvetica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .625rem;
+    line-height: 1.125rem;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 2px 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    background: none;
+    border: 0;
+    color: rgb(102 102 102);
+    cursor: pointer;
+}
+
+.upHead a:hover{
+    color: rgb(255 104 89);
+}
+
+.headline{
+    font-family: 'KisFBDisplay', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.125rem;
+    line-height: 3.375rem;
+    margin-bottom: 40px;
+    letter-spacing: -.2px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.mainArticle{
+    width: 619px;
+}
+
+figure{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+figure img{
+    width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.epigrafe{
+    margin: 0 0 20px;
+}
+
+.bentonMid{
+    font-family: 'Benton Gothic' ,arial,"helvetica neue",helvetica,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: .875rem;
+}
+
+.authAndDate{
+    margin-bottom: 20px;
+}
+
+.divAuthors{
+    margin-bottom: 12px;
+    height: 14px;
+}
+
+.author{
+    display: inline;
+    text-transform: uppercase;
+}
+
+.realeseDate{
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    color: rgb(102 102 102);
+    height: 14px;
+}
+
+.bodyFont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.9375rem;
+}
+
+.bodyFont>p{
+    margin: 30px 0;
+}
+
+.bodyFont>p a{
+    color: rgb(8 125 161);
+}
+
+.bodyFont>p:first-of-type {
+    margin-top: 0;
+}
+
+.firstSpan{
+    font-size: 1rem;
+    line-height: 1.125rem;
+}
+
+.mg-0{
+    margin: 0px;
+}
+
+.deco-none{
+    text-decoration: none;
+}
